@@ -45,6 +45,7 @@ namespace MidiExamples
 //            { ConsoleKey.D, new Example04()},
             { ConsoleKey.E, new Example05()},
             { ConsoleKey.F, new Example06()},
+            { ConsoleKey.G, new MidiLED()},
         };
 
         static void Main(string[] args)
@@ -76,6 +77,7 @@ namespace MidiExamples
                         example.Run();
                 }
             }
+            Console.WriteLine("Hello");
         }
     }
 }
